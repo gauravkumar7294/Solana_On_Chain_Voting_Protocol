@@ -71,7 +71,6 @@ All voting data is stored on-chain, making the process transparent, auditable, a
 | Language      | Rust               |
 | Testing       | LiteSVM            |
 | Client        | TypeScript         |
-| Serialization | Borsh (via Anchor) |
 
 ---
 
