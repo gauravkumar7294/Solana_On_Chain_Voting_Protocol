@@ -369,58 +369,21 @@ anchor build
 
 ---
 
+## Program Deployment
+
+```bash
+anchor deploy --provider.cluster devnet
+```
+
+---
+
 ## Run Tests
 
 ```bash
 cargo test
 ```
 
-or
 
-```bash
-anchor test
-```
-
-depending on your local configuration.
-
----
-
-# 📈 Example Workflow
-
-### 1. Create Poll
-
-```text
-Poll ID: 1
-Name: Presidential Election
-```
-
-### 2. Add Candidates
-
-```text
-Alice
-Bob
-Charlie
-```
-
-### 3. Cast Votes
-
-```text
-Alice → +1 vote
-Bob → +1 vote
-Alice → +1 vote
-```
-
-### 4. View Results
-
-```text
-Alice: 2
-Bob: 1
-Charlie: 0
-```
-
-All results are stored and verified on-chain.
-
----
 
 # 🎯 Learning Outcomes
 
@@ -452,24 +415,6 @@ Potential enhancements include:
 * Multi-choice polls
 
 ---
-
-# 🤝 Contributing
-
-Contributions, suggestions, and improvements are welcome.
-
-Feel free to:
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Submit a pull request
-
----
-
-# 📜 License
-
-This project is open-source and available under the MIT License.
-
 ---
 
 Built with ❤️ using Solana, Anchor, Rust, and LiteSVM.
